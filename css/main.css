@@ -1,0 +1,65 @@
+body {
+  background-color: #000000; }
+
+.head {
+  background-image: url(../img/top-bars.jpg);
+  background-repeat: no-repeat;
+  background-position: center top; }
+
+h5 {
+  color: #dfdfdf;
+  white-space: nowrap; }
+
+h3 {
+  color: #dfdfdf;
+  white-space: nowrap; }
+
+p {
+  color: #9b9a9a; }
+
+.portfolio {
+  margin-top: 55px; }
+
+.divider {
+  height: 21px;
+  background-position: center top;
+  background-image: url("../img/divider-01.jpg"); }
+
+.top_line, .about {
+  background-position: center top;
+  background-image: url("../img/background-tile.jpg");
+  padding-top: 55px;
+  padding-bottom: 55px; }
+
+.item_one img {
+  border: #1e1e1e solid 4px; }
+
+.item_bottom {
+  background-position: center top;
+  background-image: url("../img/skip-btn.jpg"); }
+  .item_bottom a {
+    height: 64px;
+    display: block;
+    background-position: 0 0px;
+    position: relative; }
+  .item_bottom:hover {
+    height: 64px;
+    display: block;
+    background-position: center -64px;
+    position: relative; }
+  .item_bottom.off {
+    background-position: center top;
+    background-image: url("../img/skip-btn-off.jpg"); }
+  .item_bottom.end-one {
+    background-position: center top;
+    background-image: url("../img/end-01.jpg");
+    height: 90px; }
+
+.skiplink {
+  display: block; }
+
+#facebook-link a {
+  color: #0c54b9; }
+
+.footer p {
+  text-align: center; }
