@@ -1,0 +1,144 @@
+//vars
+$globalPadding:20px;
+$globalTextPadding:10px;
+$globalColour:#2e2e2e;
+
+//Mobile media qs
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px)  {
+	
+	
+
+	.portfolio {
+	margin-top: 0;
+	padding-bottom: $globalPadding;
+	text-align: center;
+	}
+	#row-four {
+		
+			text-align: center;
+		
+	}
+	.top_line{
+	padding-top: 0;
+	padding-bottom: 0;
+	background-image: none;
+
+		
+	}
+	.divider {
+	height: 21px;
+	display: none;
+	background-image: none;
+
+	}
+	h3 {
+		
+		padding-left: $globalPadding;
+		padding-top: $globalPadding;
+	}
+	h5 {
+		text-align: center;
+		
+		padding-top: $globalTextPadding;
+	}
+	p {
+		text-align: center;
+		font-size:12px;
+		&.about-body {
+			text-align:justify;
+			padding-left: $globalPadding;
+		padding-right: $globalPadding;
+		
+
+		}
+
+	}
+	#row-mobile {
+		padding: 0;
+		
+	}
+	.item_bottom {
+		
+		display: none;
+		background-image: none;
+		
+		
+		
+	
+	}
+	.item_one {
+		text-align: center;
+		background-color: $globalColour;
+		padding-top: $globalPadding;
+	padding-bottom: $globalPadding;
+		border-radius: 5px;
+		& img {
+		width:230px;
+		border: #1e1e1e solid 4px;
+			}
+		}
+	.about {
+		background-color: $globalColour;
+		padding-top: $globalPadding;
+			border-radius: 5px;
+
+	}
+	.footer {
+	text-align: left;
+		padding-top: $globalPadding;
+	
+				
+	}
+}
+//Mobile media qs
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px)  {
+
+.head {
+	text-align: center;
+}
+.portfolio {
+	margin-top: 0;
+	padding-bottom: $globalPadding;
+	text-align: center;
+	}
+.item_one {
+		text-align: center;
+	
+		
+		& img {
+		width:500px;
+		border: #1e1e1e solid 4px;
+			}
+		}
+
+
+p {
+		text-align: center;
+		
+		&.about-body {
+			text-align:justify;
+			padding-left: $globalPadding;
+		padding-right: $globalPadding;
+		
+
+		}
+
+	}
+
+#row-four {
+		
+			text-align: center;
+		
+	}
+	h3 {
+		text-align: center;
+		
+	}
+	h5 {
+		text-align: center;
+		
+		padding-top: $globalTextPadding;
+	}
+
+
+}

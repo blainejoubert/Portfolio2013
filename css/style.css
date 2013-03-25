@@ -224,7 +224,7 @@ h6 { font-size: 16px; font-size: 1rem; }
 /*=====================================================  	Links & Paragraph styles 	 	======================================================*/
 p { font-family: "Open Sans"; font-weight: 400; font-size: 16px; font-size: 1rem; margin-bottom: 13px; line-height: 1.625em; }
 p.lead { font-size: 20px; font-size: 1.25rem; margin-bottom: 18px; }
-@media only screen and (max-width: 768px) { p { font-size: 17.6px; font-size: 1.1rem; line-height: 1.625em; } }
+@media only screen and (max-width: 767px) { p { font-size: 17.6px; font-size: 1.1rem; line-height: 1.625em; } }
 
 a { color: #6cb2e8; text-decoration: none; outline: 0; line-height: inherit; }
 a:hover { color: #0935b9; }
@@ -251,7 +251,7 @@ ul.large li { line-height: 21px; }
 
 dl dt { font-weight: bold; font-size: 16px; font-size: 1rem; }
 
-@media only screen and (max-width: 768px) { ul, ol, dl, p { text-align: left; } }
+@media only screen and (max-width: 767px) { ul, ol, dl, p { text-align: left; } }
 /* Mobile */
 em { font-style: italic; line-height: inherit; }
 
@@ -309,7 +309,7 @@ body { background: white; font-family: "Open Sans"; font-weight: 400; color: #55
 .hide.active, .show { display: block; }
 
 .fixed { position: fixed; }
-@media only screen and (max-width: 768px) { .fixed { position: relative !important; } }
+@media only screen and (max-width: 767px) { .fixed { position: relative !important; } }
 
 /* Icons */
 [class^="icon-"] a:before, [class*=" icon-"] a:before, [class^="icon-"] a:after, [class*=" icon-"] a:after, i[class^="icon-"], i[class*=" icon-"] { font-family: "entypo"; position: absolute; text-decoration: none; zoom: 1; }
@@ -952,9 +952,9 @@ i.icon-fast-forward:before { content: "\23e9"; height: inherit; }
 
 i.icon-fast-backward:before { content: "\23ea"; height: inherit; }
 
-.icon-progress-0.icon-left a:before, .icon-progress-0.icon-right a:after { content: "\e768"; height: inherit; }
+.icon-progress-0.icon-left a:before, .icon-progress-0.icon-right a:after { content: "\e767"; height: inherit; }
 
-i.icon-progress-0:before { content: "\e768"; height: inherit; }
+i.icon-progress-0:before { content: "\e767"; height: inherit; }
 
 .icon-progress-1.icon-left a:before, .icon-progress-1.icon-right a:after { content: "\e769"; height: inherit; }
 
@@ -1480,7 +1480,7 @@ form fieldset legend { padding: 5px 10px; }
 .field .xnarrow:last-child, .field .narrow:last-child, .field .normal:last-child, .field .wide:last-child, .field .xwide:last-child, .field .xxwide:last-child { margin-left: -4px; }
 .field .xnarrow:first-child, .field .narrow:first-child, .field .normal:first-child, .field .wide:first-child, .field .xwide:first-child, .field .xxwide:first-child { margin-right: 4%; margin-left: 0; }
 .field label + .xnarrow:last-child, .field label + .narrow:last-child, .field label + .normal:last-child, .field label + .wide:last-child, .field label + .xwide:last-child, .field label + .xxwide:last-child { margin-left: 0; }
-@media only screen and (max-width: 768px) { .field .xnarrow:first-child, .field .narrow:first-child, .field .normal:first-child, .field .wide:first-child, .field .xwide:first-child, .field .xxwide:first-child { margin-right: 3%; }
+@media only screen and (max-width: 767px) { .field .xnarrow:first-child, .field .narrow:first-child, .field .normal:first-child, .field .wide:first-child, .field .xwide:first-child, .field .xxwide:first-child { margin-right: 3%; }
   .field .xxwide:first-child, .field .xxwide:last-child { margin-right: 0%; } }
 .field.prepend, .field.append { font-size: 0; white-space: nowrap; padding-bottom: 3.5px; }
 .field.prepend input, .field.prepend .input, .field.append input, .field.append .input { display: inline-block; max-width: 100%; }
@@ -1761,7 +1761,7 @@ form fieldset legend { padding: 5px 10px; }
 .navbar li .dropdown ul li:first-child a { border-radius: 0; }
 .navbar li .dropdown ul li a:hover { background: #f2f2f2; }
 
-@media only screen and (min-width: 768px) and (max-width: 939px) { .navbar .logo a { line-height: 0px; }
+@media only screen and (min-width: 767px) and (max-width: 939px) { .navbar .logo a { line-height: 0px; }
   .navbar > ul > li > .btn a { padding: 0 10px 0 10px !important; }
   .navbar ul > li .dropdown ul li:hover .dropdown { left: -320px; }
   .navbar .dropdown li { max-width: 320px; word-wrap: break-word; } }

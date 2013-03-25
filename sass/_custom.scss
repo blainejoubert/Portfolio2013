@@ -7,6 +7,7 @@ $defaultBodyFontColour:#9b9a9a;
 @mixin background($posOne, $posTwo, $url) {
   background-position: $posOne $posTwo;
   background-image: url($url);
+  background-color: #000000;
   
 }
 
@@ -91,3 +92,5 @@ border: #1e1e1e solid 4px;
 	text-align: center;
 
 }
+
+@import "custom_mobile";
