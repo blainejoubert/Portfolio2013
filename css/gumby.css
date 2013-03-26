@@ -47,7 +47,7 @@ body { background: white; font-family: "Open Sans"; font-weight: 400; color: #55
 /* Fonts */
 @font-face { font-family: "entypo"; font-style: normal; font-weight: 400; src: url(../fonts/icons/entypo.eot); src: url("../fonts/icons/entypo.eot?#iefix") format("ie9-skip-eot"), url("../fonts/icons/entypo.woff") format("woff"), url("../fonts/icons/entypo.ttf") format("truetype"); }
 
-h1, h2, h3, h4, h5, h6 { font-family: "Open Sans"; font-weight: Normal; color: #444444; text-rendering: optimizelegibility; padding-top: 0.273em; line-height: 1.15538em; padding-bottom: 0.273em; }
+h1, h2, h3, h4, h5, h6 { font-family: "Open Sans"; font-weight: Normal; color: #444444; text-rendering: optimizelegibility; padding-top: 0.873em; line-height: 1.15538em; padding-bottom: 0.273em; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #d04526; }
 
 @media only screen and (max-width: 767px) { h1, h2, h3, h4, h5, h6 { word-wrap: break-word; } }
