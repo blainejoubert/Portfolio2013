@@ -89,8 +89,10 @@ p {
     background-image: none; }
 
   h3 {
+    font-size: large;
     padding-left: 20px;
-    padding-top: 20px; }
+    padding-top: 20px;
+    text-align: left; }
 
   h5 {
     text-align: center;
@@ -98,7 +100,7 @@ p {
 
   p {
     text-align: center;
-    font-size: 12px; }
+    font-size: small; }
     p.about-body {
       text-align: justify;
       padding-left: 20px;
@@ -129,10 +131,37 @@ p {
   .footer {
     text-align: left;
     padding-top: 20px; } }
-@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+@media only screen and (min-device-width: 480px) and (max-width: 768px), only screen and (max-device-width: 768px) {
   .head {
     text-align: center; }
 
+  .portfolio {
+    padding-bottom: 20px;
+    text-align: center; }
+
+  .item_one {
+    text-align: center; }
+    .item_one img {
+      width: 500px;
+      border: #1e1e1e solid 4px; }
+
+  p {
+    text-align: center; }
+    p.about-body {
+      text-align: justify;
+      padding-left: 20px;
+      padding-right: 20px; }
+
+  #row-four {
+    text-align: center; }
+
+  h3 {
+    /* text-align: center; */ }
+
+  h5 {
+    text-align: center;
+    padding-top: 10px; } }
+@media only screen and (min-device-width: 480px) and (max-width: 767px), only screen and (max-device-width: 767px) {
   .portfolio {
     margin-top: 0;
     padding-bottom: 20px;
@@ -155,7 +184,7 @@ p {
     text-align: center; }
 
   h3 {
-    text-align: center; }
+    text-align: left; }
 
   h5 {
     text-align: center;
