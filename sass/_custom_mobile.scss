@@ -32,9 +32,10 @@ $globalColour:#2e2e2e;
 
 	}
 	h3 {
-		
+		font-size: large;
 		padding-left: $globalPadding;
 		padding-top: $globalPadding;
+		text-align: left;
 	}
 	h5 {
 		text-align: center;
@@ -43,7 +44,7 @@ $globalColour:#2e2e2e;
 	}
 	p {
 		text-align: center;
-		font-size:12px;
+		font-size:small;
 		&.about-body {
 			text-align:justify;
 			padding-left: $globalPadding;
@@ -91,7 +92,7 @@ $globalColour:#2e2e2e;
 	}
 }
 //Mobile media qs
-@media only screen and (max-width: 768px), only screen and (max-device-width: 768px)  {
+@media only screen and (min-device-width : 480px) and (max-width: 768px), only screen and (max-device-width: 768px)  {
 
 .head {
 	text-align: center;
@@ -139,6 +140,57 @@ p {
 		
 		padding-top: $globalTextPadding;
 	}
+
+
+}
+@media only screen and (min-device-width : 480px) and (max-width: 767px), only screen and (max-device-width: 767px)  {
+
+
+.portfolio {
+	margin-top: 0;
+	padding-bottom: $globalPadding;
+	text-align: center;
+	}
+.item_one {
+		text-align: center;
+	
+		
+		& img {
+		width:500px;
+		border: #1e1e1e solid 4px;
+			}
+		}
+
+
+p {
+		text-align: center;
+		
+		&.about-body {
+			text-align:justify;
+			padding-left: $globalPadding;
+		padding-right: $globalPadding;
+		
+
+		}
+
+	}
+
+#row-four {
+		
+			text-align: center;
+		
+	}
+	h3 {
+		 text-align: left; 
+		
+	}
+	h5 {
+		text-align: center;
+		
+		padding-top: $globalTextPadding;
+	}
+
+
 
 
 }
