@@ -36,9 +36,18 @@
 
    
     <link rel="stylesheet" href="css/gumby.css">
-     <link rel="stylesheet" href="css/main.css"> 
+     
+  
+    <![if gte IE 9]>
+    <!-- This code is visible to IE9 and above and all non-IE browsers. -->
+    <link rel="stylesheet" href="css/main.css"> 
+<![endif]>
 
+    <!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/ie.css" />
+<![endif]-->
     <script src="js/libs/modernizr-2.0.6.min.js"></script>
+  
    
  </head>
 <body>
@@ -46,7 +55,7 @@
 <div class="container">
 
   	<div class="row" >
-  	  <div class="twelve columns special head " >
+  	  <div class="twelve columns special head"  gumby-fixed="top|[data-target='helpers']">
   	  	<div class="four columns " ><img src="img/logo.png" alt="logo" class="logo"></div>
   	  	<div class="push_five two columns portfolio"><h5>Digital Portfolio</h5></div>
   	  	
@@ -241,7 +250,7 @@
 
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
-  <!--[if lt IE 7 ]>
+  <!--[if lt IE 8 ]>
     <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
     <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
   <![endif]-->
