@@ -131,7 +131,7 @@ p {
   .footer {
     text-align: left;
     padding-top: 20px; } }
-@media only screen and (min-device-width: 480px) and (max-width: 768px), only screen and (max-device-width: 768px) {
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
   .head {
     text-align: center; }
 
@@ -146,7 +146,7 @@ p {
       border: #1e1e1e solid 4px; }
 
   p {
-    text-align: center; }
+    text-align: left; }
     p.about-body {
       text-align: justify;
       padding-left: 20px;
@@ -159,9 +159,9 @@ p {
     /* text-align: center; */ }
 
   h5 {
-    text-align: center;
+    text-align: left;
     padding-top: 10px; } }
-@media only screen and (min-device-width: 480px) and (max-width: 767px), only screen and (max-device-width: 767px) {
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
   .portfolio {
     margin-top: 0;
     padding-bottom: 20px;
@@ -174,7 +174,7 @@ p {
       border: #1e1e1e solid 4px; }
 
   p {
-    text-align: center; }
+    text-align: left; }
     p.about-body {
       text-align: justify;
       padding-left: 20px;
@@ -187,5 +187,5 @@ p {
     text-align: left; }
 
   h5 {
-    text-align: center;
+    text-align: left;
     padding-top: 10px; } }
