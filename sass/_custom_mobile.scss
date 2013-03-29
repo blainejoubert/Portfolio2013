@@ -1,22 +1,24 @@
 //vars
-$globalPadding:20px;
+$globalPadding:10px;
 $globalTextPadding:10px;
 $globalColour:#2e2e2e;
 
-//Mobile media qs
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px)  {
-	
-	
-
-	.portfolio {
-	margin-top: 0;
-	padding-bottom: $globalPadding;
-	text-align: center;
+//Mobiles
+@media only screen and (max-width: 767px) {
+	.head{
+		text-align: center;
 	}
-	#row-four {
+	.portfolio {
+		margin-top: 0;
+		text-align: center;
 		
-			text-align: center;
-		
+		}
+	.item_one {
+		width:130px;
+		padding: $globalPadding;
+		background-color: $globalColour;
+		border-radius: 5px;
+		text-align: center;
 	}
 	.top_line{
 	padding-top: 0;
@@ -29,168 +31,63 @@ $globalColour:#2e2e2e;
 	height: 21px;
 	display: none;
 	background-image: none;
-
-	}
-	h3 {
-		font-size: large;
-		padding-left: $globalPadding;
-		padding-top: $globalPadding;
-		text-align: left;
-	}
-	h5 {
-		text-align: center;
-		
-		padding-top: $globalTextPadding;
-	}
-	p {
-		text-align: center;
-		font-size:small;
-		&.about-body {
-			text-align:justify;
-			padding-left: $globalPadding;
-		padding-right: $globalPadding;
-		
-
-		}
-
-	}
-	#row-mobile {
-		padding: 0;
-		
 	}
 	.item_bottom {
 		
 		display: none;
 		background-image: none;
-		
-		
-		
 	
 	}
-	.item_one {
-		text-align: center;
-		background-color: $globalColour;
-		padding-top: $globalPadding;
-	padding-bottom: $globalPadding;
-		border-radius: 5px;
-		& img {
-		width:230px;
-		border: #1e1e1e solid 4px;
-			}
+	
+	.mobile_bottom {
+		display: none;
+	}
+	#row-about {
+	text-align: center;
+	padding-top: 10px;
+		
+		
+	}
+	p {
+			font-size: small;
+			text-align: center;
+			&.about-body{text-align: left;}
 		}
 	.about {
 		background-color: $globalColour;
-		padding-top: $globalPadding;
-			border-radius: 5px;
+		padding: $globalPadding;
+		border-radius: 5px;
 
 	}
-	.footer {
-	text-align: left;
-		padding-top: $globalPadding;
 	
-				
-	}
-}
-//Mobile media qs
-@media only screen  and (max-width: 768px), only screen and (max-device-width: 768px)  {
-
-.head {
-	text-align: center;
-}
-.portfolio {
-	//margin-top: 0;
-	padding-bottom: $globalPadding;
-	text-align: center;
-	}
-.item_one {
-		text-align: center;
-	
-		
-		& img {
-		width:500px;
-		border: #1e1e1e solid 4px;
-			}
-		}
-
-
-p {
-		text-align: left;
-		
-		&.about-body {
-			text-align:justify;
-			padding-left: $globalPadding;
-		padding-right: $globalPadding;
-		
-
-		}
-
-	}
-
-#row-four {
-		
-			text-align: center;
-		
-	}
 	h3 {
-		/* text-align: center; */
-		
+		font-size: larger;
 	}
-	h5 {
-		text-align: left;
 		
-		padding-top: $globalTextPadding;
-	}
-
-
 }
-@media only screen and (max-width: 767px), only screen and (max-device-width: 767px)  {
-
-
-.portfolio {
-	margin-top: 0;
-	padding-bottom: $globalPadding;
-	text-align: center;
+//Tablets
+@media only screen and (max-width: 768px) {
+	.flashcontent {
+		display: none;
 	}
-.item_one {
-		text-align: center;
+	.item_bottom {
 	
-		
-		& img {
-		width:500px;
-		border: #1e1e1e solid 4px;
-			}
-		}
-
-
-p {
-		text-align: left;
-		
-		&.about-body {
-			text-align:justify;
-			padding-left: $globalPadding;
-		padding-right: $globalPadding;
-		
-
-		}
+	display: none;
+	background-image: none;
 
 	}
+	.mobile_bottom {
+		height:64px;;
+		@include background(center,top,'../img/skip-btn-off.jpg');
 
-#row-four {
-		
-			text-align: center;
-		
 	}
-	h3 {
-		 text-align: left; 
-		
+	p {
+		font-size: small;
 	}
-	h5 {
-		text-align: left;
-		
-		padding-top: $globalTextPadding;
+		.end-one {
+		@include background(center,top,'../img/end-01.jpg');
+		height:90px;
+
 	}
-
-
-
 
 }
