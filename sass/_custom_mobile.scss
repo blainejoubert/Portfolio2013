@@ -67,9 +67,7 @@ $globalColour:#2e2e2e;
 }
 //Tablets
 @media only screen and (max-width: 768px) {
-	.flashcontent {
-		display: none;
-	}
+	
 	.item_bottom {
 	
 	display: none;
@@ -90,4 +88,14 @@ $globalColour:#2e2e2e;
 
 	}
 
+}
+@media only screen and (max-device-width: 767px) {
+.flashcontent {
+		display: none;
+	}
+}
+@media only screen and (max-device-width: 768px) {
+.flashcontent {
+		display: none;
+	}
 }

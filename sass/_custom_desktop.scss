@@ -25,6 +25,7 @@ body {
 h5 {
 	color: $defaultFontColour;
 	white-space: nowrap;
+	padding-top: 40px;
 	
 }
 h3 {
@@ -39,6 +40,9 @@ p{
 }
 .portfolio {
 	margin-top: 55px;
+	& h5 {
+		padding-top: 0px;
+	}
 }
 .divider {
 	height: 21px;
@@ -92,4 +96,29 @@ border: #1e1e1e solid 4px;
 	text-align: center;
 
 }
+//selection colour
+::-moz-selection {
+   background-color: #610b6e;
+   color: #fff;
+}
+::selection {
+    background-color: #610b6e;
+    color: #fff;
+}
+.image{   } 
+.image img { 
+opacity: 0.8; 
+/*Transition*/ 
+-webkit-transition: all 0.5s ease; 
+-moz-transition: all 0.5s ease; 
+-o-transition: all 0.5s ease; 
+/*Reflection*/ 
+-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.8, transparent), to(rgba(0,0,0,0.5))); } 
 
+.image img:hover { 
+opacity: 1; 
+/*Reflection*/ 
+-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.8, transparent), to(rgba(0,0,0,0.5))); 
+
+/*Glow*/ 
+-webkit-box-shadow: 0px 0px 10px rgba(72,139,240,0.5); -moz-box-shadow: 0px 0px 20px rgba(72,139,240,0.5); box-shadow: 0px 0px 10px rgba(72,139,240,0.5); }
