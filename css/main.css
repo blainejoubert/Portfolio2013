@@ -83,9 +83,6 @@ p {
 .image img {
   opacity: 0.8;
   /*Transition*/
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   /*Reflection*/
   -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(rgba(0, 0, 0, 0.5))); }
 
